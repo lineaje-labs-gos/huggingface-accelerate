@@ -49,7 +49,7 @@ extras["sagemaker"] = [
 
 setup(
     name="accelerate",
-    version="0.34.2",
+    version="0.34.2+lineaje.1",
     description="Accelerate",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
@@ -76,7 +76,7 @@ setup(
         "psutil",
         "pyyaml",
         "torch>=1.10.0",
-        "huggingface_hub>=0.21.0",
+        "huggingface_hub>=0.36.2",
         "safetensors>=0.4.3",
     ],
     extras_require=extras,
